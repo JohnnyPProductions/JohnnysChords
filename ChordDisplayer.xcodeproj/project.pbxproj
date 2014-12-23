@@ -81,11 +81,11 @@
 		A741CB461A48ED5500859A2A /* ChordDisplayer */ = {
 			isa = PBXGroup;
 			children = (
+				A741CB511A48ED5700859A2A /* Main.storyboard */,
 				A741CB4B1A48ED5600859A2A /* AppDelegate.h */,
 				A741CB4C1A48ED5700859A2A /* AppDelegate.m */,
 				A741CB4E1A48ED5700859A2A /* ViewController.h */,
 				A741CB4F1A48ED5700859A2A /* ViewController.m */,
-				A741CB511A48ED5700859A2A /* Main.storyboard */,
 				A741CB541A48ED5800859A2A /* Images.xcassets */,
 				A741CB561A48ED5A00859A2A /* LaunchScreen.xib */,
 				A741CB471A48ED5500859A2A /* Supporting Files */,

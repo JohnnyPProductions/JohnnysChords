@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageOne;
 
 @end
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.imageOne.hidden = YES;
+}
+- (IBAction)guitarButton:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"classic3"];
 }
 
 - (void)didReceiveMemoryWarning {
