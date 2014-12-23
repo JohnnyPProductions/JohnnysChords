@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.imageOne.hidden = YES;
+    self.title = @"EzChords";
 }
 - (IBAction)guitarButton:(id)sender
 {
