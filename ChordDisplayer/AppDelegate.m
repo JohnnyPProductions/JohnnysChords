@@ -22,8 +22,8 @@
     
     
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           [UIColor colorWithRed:255.0/255.0 green:223.0/255.0 blue:141.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
-                                                           [UIFont fontWithName:@"American Typewriter" size:40.0], NSFontAttributeName, nil]];
+                                                           [UIColor colorWithRed:0.0/255.0 green:0.0/255.0 blue:0.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           [UIFont fontWithName:@"American Typewriter" size:35.0], NSFontAttributeName, nil]];
    
     
     return YES;

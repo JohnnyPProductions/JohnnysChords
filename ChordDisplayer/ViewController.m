@@ -23,8 +23,41 @@
 - (IBAction)guitarButton:(id)sender
 {
     self.imageOne.hidden = NO;
-    self.imageOne.image = [UIImage imageNamed:@"classic3"];
+    self.imageOne.image = [UIImage imageNamed:@"A Chord Tab"];
 }
+- (IBAction)bChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"B Chord Tab"];
+}
+
+- (IBAction)cChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"C Chord Tab"];
+}
+- (IBAction)dChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"D Chord Tab"];
+}
+- (IBAction)eChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"E Chord Tab"];
+}
+- (IBAction)fChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"F Chord Tab"];
+}
+- (IBAction)gChord:(id)sender
+{
+    self.imageOne.hidden = NO;
+    self.imageOne.image = [UIImage imageNamed:@"G Chord Tab"];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
