@@ -16,22 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6zw-2Z-sMF">
-                                <rect key="frame" x="191" y="90" width="219" height="211"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcE-LN-kBE" userLabel="A">
+                                <rect key="frame" x="191" y="306" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="219" id="0Ye-eT-g3Y"/>
-                                    <constraint firstAttribute="height" constant="211" id="yUu-DP-bvP"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcE-LN-kBE">
-                                <rect key="frame" x="285" y="309" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="62g-QR-kMT"/>
+                                    <constraint firstAttribute="width" constant="50" id="OJ5-jS-obI"/>
+                                    <constraint firstAttribute="height" constant="50" id="PlS-SA-PWn"/>
                                     <constraint firstAttribute="height" constant="30" id="l81-xt-6SG"/>
                                     <constraint firstAttribute="width" constant="42" id="qer-eC-gjs"/>
-                                    <constraint firstAttribute="width" constant="30" id="zIj-t4-kD0"/>
                                 </constraints>
-                                <state key="normal" title="A">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -44,14 +38,15 @@
                                     <action selector="guitarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QJk-ee-Uqf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCp-ZX-sB1">
-                                <rect key="frame" x="285" y="347" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCp-ZX-sB1" userLabel="B">
+                                <rect key="frame" x="275" y="306" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Cec-T1-C78"/>
-                                    <constraint firstAttribute="height" constant="30" id="VkK-QF-2b5"/>
-                                    <constraint firstAttribute="width" constant="30" id="cNl-wm-eLd"/>
+                                    <constraint firstAttribute="height" constant="50" id="FbW-1b-njl"/>
+                                    <constraint firstAttribute="width" constant="50" id="OSi-Uj-VT9"/>
                                 </constraints>
-                                <state key="normal" title="B">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -63,109 +58,151 @@
                                     <action selector="bChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OaP-SZ-XlE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CA-Oj-aRg">
-                                <rect key="frame" x="285" y="385" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CA-Oj-aRg" userLabel="C">
+                                <rect key="frame" x="359" y="306" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="s4V-YR-oTz"/>
-                                    <constraint firstAttribute="width" constant="30" id="sPQ-63-h83"/>
+                                    <constraint firstAttribute="height" constant="50" id="VTL-5o-XrA"/>
+                                    <constraint firstAttribute="width" constant="50" id="dPG-mS-n9B"/>
                                 </constraints>
-                                <state key="normal" title="C">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="cChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ZF-2i-vOg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So2-wH-Fqa">
-                                <rect key="frame" x="285" y="423" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So2-wH-Fqa" userLabel="D">
+                                <rect key="frame" x="191" y="387" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="C8E-S3-jWE"/>
-                                    <constraint firstAttribute="height" constant="30" id="RVf-Po-asF"/>
+                                    <constraint firstAttribute="height" constant="50" id="UOx-30-LqB"/>
+                                    <constraint firstAttribute="width" constant="50" id="g49-A8-Qfi"/>
                                 </constraints>
-                                <state key="normal" title="D">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="dChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akP-Fl-dQx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfW-1X-qWT">
-                                <rect key="frame" x="285" y="461" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfW-1X-qWT" userLabel="E">
+                                <rect key="frame" x="275" y="387" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="4rl-VK-hnF"/>
-                                    <constraint firstAttribute="height" constant="30" id="fcc-qE-Evl"/>
+                                    <constraint firstAttribute="width" constant="50" id="3Md-T7-eWD"/>
+                                    <constraint firstAttribute="height" constant="50" id="wVA-9f-Qct"/>
                                 </constraints>
-                                <state key="normal" title="E">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="eChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cra-0K-SUg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueg-Ip-Nej">
-                                <rect key="frame" x="285" y="499" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueg-Ip-Nej" userLabel="F">
+                                <rect key="frame" x="359" y="387" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="hOq-p2-ZQ2"/>
-                                    <constraint firstAttribute="width" constant="30" id="t76-je-wqE"/>
+                                    <constraint firstAttribute="height" constant="50" id="Kr3-yB-X88"/>
+                                    <constraint firstAttribute="width" constant="50" id="iGb-kE-j7X"/>
                                 </constraints>
-                                <state key="normal" title="F">
+                                <state key="normal" image="A Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="fChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BnX-tA-BIg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90m-Y9-AYp">
-                                <rect key="frame" x="285" y="537" width="30" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sC0-ab-7mX">
+                                <rect key="frame" x="140" y="64" width="320" height="211"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="1w6-v4-NfI"/>
+                                    <constraint firstAttribute="width" constant="290" id="3f3-FE-aTP"/>
+                                    <constraint firstAttribute="width" constant="300" id="E4k-xs-czf"/>
+                                    <constraint firstAttribute="width" constant="219" id="KMy-6W-w1T"/>
+                                    <constraint firstAttribute="width" constant="275" id="UbS-GV-bSf"/>
+                                    <constraint firstAttribute="height" constant="211" id="x3F-GX-L7E"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3f3-FE-aTP"/>
+                                        <exclude reference="E4k-xs-czf"/>
+                                        <exclude reference="KMy-6W-w1T"/>
+                                        <exclude reference="UbS-GV-bSf"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90m-Y9-AYp" userLabel="G">
+                                <rect key="frame" x="275" y="468" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SGL-2G-6YR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="fak-wt-2wD"/>
+                                    <constraint firstAttribute="height" constant="50" id="iZv-0f-mvt"/>
                                     <constraint firstAttribute="width" constant="30" id="kIN-aR-nfJ"/>
                                     <constraint firstAttribute="height" constant="30" id="siu-ru-XxY"/>
+                                    <constraint firstAttribute="width" constant="50" id="wuF-WW-eS8"/>
                                 </constraints>
-                                <state key="normal" title="G">
+                                <state key="normal" image="G Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="kIN-aR-nfJ"/>
+                                        <exclude reference="siu-ru-XxY"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="gChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8D-EH-qca"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="YCp-ZX-sB1" secondAttribute="centerX" id="0Ol-YV-tpJ"/>
                             <constraint firstItem="YCp-ZX-sB1" firstAttribute="top" secondItem="gcE-LN-kBE" secondAttribute="bottom" constant="8" id="1cu-gS-kaT"/>
+                            <constraint firstAttribute="centerX" secondItem="90m-Y9-AYp" secondAttribute="centerX" id="3n7-jJ-CPy"/>
+                            <constraint firstItem="9CA-Oj-aRg" firstAttribute="leading" secondItem="YCp-ZX-sB1" secondAttribute="trailing" constant="34" id="3yN-QL-Xim"/>
+                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="51Z-bh-Zir"/>
+                            <constraint firstAttribute="centerX" secondItem="sC0-ab-7mX" secondAttribute="centerX" id="7B5-yt-tLb"/>
                             <constraint firstAttribute="centerX" secondItem="90m-Y9-AYp" secondAttribute="centerX" id="7HJ-vb-IUI"/>
                             <constraint firstItem="9CA-Oj-aRg" firstAttribute="top" secondItem="YCp-ZX-sB1" secondAttribute="bottom" constant="8" id="AUQ-v9-kPd"/>
-                            <constraint firstAttribute="centerX" secondItem="6zw-2Z-sMF" secondAttribute="centerX" id="DW5-X6-Zm6"/>
-                            <constraint firstItem="gcE-LN-kBE" firstAttribute="top" secondItem="6zw-2Z-sMF" secondAttribute="bottom" constant="8" id="DhR-bM-CdN"/>
-                            <constraint firstAttribute="centerX" secondItem="So2-wH-Fqa" secondAttribute="centerX" id="Dht-3E-sRQ"/>
-                            <constraint firstItem="gcE-LN-kBE" firstAttribute="top" secondItem="6zw-2Z-sMF" secondAttribute="bottom" constant="64" id="Do1-Yl-n78"/>
-                            <constraint firstItem="9CA-Oj-aRg" firstAttribute="top" secondItem="YCp-ZX-sB1" secondAttribute="bottom" constant="8" id="EQc-aZ-MFG"/>
-                            <constraint firstItem="6zw-2Z-sMF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="FYY-fm-8eW"/>
-                            <constraint firstItem="nfW-1X-qWT" firstAttribute="top" secondItem="So2-wH-Fqa" secondAttribute="bottom" constant="8" id="Fuh-d8-b0N"/>
-                            <constraint firstAttribute="centerX" secondItem="ueg-Ip-Nej" secondAttribute="centerX" id="HW6-5X-dht"/>
+                            <constraint firstItem="ueg-Ip-Nej" firstAttribute="leading" secondItem="nfW-1X-qWT" secondAttribute="trailing" constant="34" id="EKn-i5-pel"/>
+                            <constraint firstItem="YCp-ZX-sB1" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="24" id="EPA-Ei-Svd"/>
+                            <constraint firstItem="90m-Y9-AYp" firstAttribute="leading" secondItem="YCp-ZX-sB1" secondAttribute="trailing" constant="34" id="NNH-qV-vqv"/>
                             <constraint firstAttribute="centerX" secondItem="gcE-LN-kBE" secondAttribute="centerX" id="Qbv-Te-PMG"/>
+                            <constraint firstItem="YCp-ZX-sB1" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="VYP-Ot-CId"/>
+                            <constraint firstItem="gcE-LN-kBE" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="VtT-K0-lyy"/>
+                            <constraint firstAttribute="centerX" secondItem="nfW-1X-qWT" secondAttribute="centerX" id="WAu-L0-p3D"/>
+                            <constraint firstItem="nfW-1X-qWT" firstAttribute="leading" secondItem="So2-wH-Fqa" secondAttribute="trailing" constant="34" id="Wuk-CV-wQU"/>
                             <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="ueg-Ip-Nej" secondAttribute="bottom" constant="8" id="Xgr-kb-RyR"/>
-                            <constraint firstAttribute="centerX" secondItem="9CA-Oj-aRg" secondAttribute="centerX" id="YUY-o4-Pfh"/>
-                            <constraint firstItem="So2-wH-Fqa" firstAttribute="top" secondItem="9CA-Oj-aRg" secondAttribute="bottom" constant="8" id="eHv-dF-DwK"/>
-                            <constraint firstAttribute="centerX" secondItem="nfW-1X-qWT" secondAttribute="centerX" id="f0i-5k-EGG"/>
-                            <constraint firstAttribute="centerX" secondItem="gcE-LN-kBE" secondAttribute="centerX" id="i8n-wx-Mgo"/>
-                            <constraint firstItem="ueg-Ip-Nej" firstAttribute="top" secondItem="nfW-1X-qWT" secondAttribute="bottom" constant="8" id="rib-tj-Tcd"/>
-                            <constraint firstItem="gcE-LN-kBE" firstAttribute="top" secondItem="6zw-2Z-sMF" secondAttribute="bottom" constant="8" id="tuS-LP-6GX"/>
-                            <constraint firstItem="YCp-ZX-sB1" firstAttribute="top" secondItem="gcE-LN-kBE" secondAttribute="bottom" constant="8" id="yRj-WX-Z0K"/>
+                            <constraint firstItem="So2-wH-Fqa" firstAttribute="top" secondItem="gcE-LN-kBE" secondAttribute="bottom" constant="31" id="Zeh-pi-BWe"/>
+                            <constraint firstItem="YCp-ZX-sB1" firstAttribute="leading" secondItem="gcE-LN-kBE" secondAttribute="trailing" constant="34" id="dSv-Po-hZv"/>
+                            <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="nfW-1X-qWT" secondAttribute="bottom" constant="31" id="loX-Ih-yY7"/>
+                            <constraint firstItem="nfW-1X-qWT" firstAttribute="top" secondItem="YCp-ZX-sB1" secondAttribute="bottom" constant="31" id="oAb-Q5-WCT"/>
+                            <constraint firstItem="9CA-Oj-aRg" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="sjp-iK-fDd"/>
+                            <constraint firstAttribute="centerX" secondItem="YCp-ZX-sB1" secondAttribute="centerX" id="wJd-WL-P7x"/>
+                            <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="xlK-1w-mpa"/>
+                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="yYc-o6-rZW"/>
+                            <constraint firstItem="ueg-Ip-Nej" firstAttribute="top" secondItem="9CA-Oj-aRg" secondAttribute="bottom" constant="31" id="zdf-n9-JRz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="DhR-bM-CdN"/>
-                                <exclude reference="Do1-Yl-n78"/>
+                                <exclude reference="yYc-o6-rZW"/>
                                 <exclude reference="Qbv-Te-PMG"/>
                                 <exclude reference="1cu-gS-kaT"/>
+                                <exclude reference="EPA-Ei-Svd"/>
                                 <exclude reference="AUQ-v9-kPd"/>
+                                <exclude reference="7HJ-vb-IUI"/>
+                                <exclude reference="NNH-qV-vqv"/>
+                                <exclude reference="Xgr-kb-RyR"/>
+                                <exclude reference="xlK-1w-mpa"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="7Fe-Pt-TKY"/>
                     <connections>
-                        <outlet property="imageOne" destination="6zw-2Z-sMF" id="kQY-j5-ifs"/>
+                        <outlet property="imageOne" destination="sC0-ab-7mX" id="usa-1Q-sfS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -191,4 +228,8 @@
             <point key="canvasLocation" x="440" y="1090"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="A Button" width="115" height="115"/>
+        <image name="G Button" width="115" height="115"/>
+    </resources>
 </document>
