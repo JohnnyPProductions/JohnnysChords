@@ -17,11 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcE-LN-kBE" userLabel="A">
-                                <rect key="frame" x="191" y="306" width="50" height="50"/>
+                                <rect key="frame" x="176" y="314" width="60" height="60"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="JTk-fm-jL4"/>
                                     <constraint firstAttribute="width" constant="50" id="OJ5-jS-obI"/>
                                     <constraint firstAttribute="height" constant="50" id="PlS-SA-PWn"/>
                                     <constraint firstAttribute="height" constant="30" id="l81-xt-6SG"/>
+                                    <constraint firstAttribute="height" constant="60" id="pVE-lZ-qRr"/>
                                     <constraint firstAttribute="width" constant="42" id="qer-eC-gjs"/>
                                 </constraints>
                                 <state key="normal" image="A Button">
@@ -30,6 +32,8 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="OJ5-jS-obI"/>
+                                        <exclude reference="PlS-SA-PWn"/>
                                         <exclude reference="l81-xt-6SG"/>
                                         <exclude reference="qer-eC-gjs"/>
                                     </mask>
@@ -39,19 +43,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCp-ZX-sB1" userLabel="B">
-                                <rect key="frame" x="275" y="306" width="50" height="50"/>
+                                <rect key="frame" x="270" y="314" width="60" height="60"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="4pB-BM-nFs"/>
                                     <constraint firstAttribute="height" constant="30" id="Cec-T1-C78"/>
                                     <constraint firstAttribute="height" constant="50" id="FbW-1b-njl"/>
                                     <constraint firstAttribute="width" constant="50" id="OSi-Uj-VT9"/>
+                                    <constraint firstAttribute="height" constant="60" id="Rdu-yP-KZ1"/>
                                 </constraints>
-                                <state key="normal" image="A Button">
+                                <state key="normal" image="B Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="Cec-T1-C78"/>
+                                        <exclude reference="FbW-1b-njl"/>
+                                        <exclude reference="OSi-Uj-VT9"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -59,26 +67,34 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CA-Oj-aRg" userLabel="C">
-                                <rect key="frame" x="359" y="306" width="50" height="50"/>
+                                <rect key="frame" x="364" y="314" width="60" height="60"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="0tF-TS-rcO"/>
+                                    <constraint firstAttribute="height" constant="60" id="8S9-Hu-d1h"/>
                                     <constraint firstAttribute="height" constant="50" id="VTL-5o-XrA"/>
                                     <constraint firstAttribute="width" constant="50" id="dPG-mS-n9B"/>
                                 </constraints>
-                                <state key="normal" image="A Button">
+                                <state key="normal" image="C Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VTL-5o-XrA"/>
+                                        <exclude reference="dPG-mS-n9B"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="cChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ZF-2i-vOg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So2-wH-Fqa" userLabel="D">
-                                <rect key="frame" x="191" y="387" width="50" height="50"/>
+                                <rect key="frame" x="176" y="405" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="UOx-30-LqB"/>
-                                    <constraint firstAttribute="width" constant="50" id="g49-A8-Qfi"/>
+                                    <constraint firstAttribute="height" constant="60" id="UOx-30-LqB"/>
+                                    <constraint firstAttribute="width" constant="60" id="g49-A8-Qfi"/>
                                 </constraints>
-                                <state key="normal" image="A Button">
+                                <state key="normal" image="D Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -86,27 +102,13 @@
                                     <action selector="dChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akP-Fl-dQx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfW-1X-qWT" userLabel="E">
-                                <rect key="frame" x="275" y="387" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="3Md-T7-eWD"/>
-                                    <constraint firstAttribute="height" constant="50" id="wVA-9f-Qct"/>
-                                </constraints>
-                                <state key="normal" image="A Button">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="eChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cra-0K-SUg"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueg-Ip-Nej" userLabel="F">
-                                <rect key="frame" x="359" y="387" width="50" height="50"/>
+                                <rect key="frame" x="364" y="405" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Kr3-yB-X88"/>
-                                    <constraint firstAttribute="width" constant="50" id="iGb-kE-j7X"/>
+                                    <constraint firstAttribute="height" constant="60" id="Kr3-yB-X88"/>
+                                    <constraint firstAttribute="width" constant="60" id="iGb-kE-j7X"/>
                                 </constraints>
-                                <state key="normal" image="A Button">
+                                <state key="normal" image="F Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -114,8 +116,32 @@
                                     <action selector="fChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BnX-tA-BIg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90m-Y9-AYp" userLabel="G">
+                                <rect key="frame" x="270" y="496" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SGL-2G-6YR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="fak-wt-2wD"/>
+                                    <constraint firstAttribute="height" constant="60" id="iZv-0f-mvt"/>
+                                    <constraint firstAttribute="width" constant="30" id="kIN-aR-nfJ"/>
+                                    <constraint firstAttribute="height" constant="30" id="siu-ru-XxY"/>
+                                    <constraint firstAttribute="width" constant="60" id="wuF-WW-eS8"/>
+                                </constraints>
+                                <state key="normal" image="G Button-1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="kIN-aR-nfJ"/>
+                                        <exclude reference="siu-ru-XxY"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="gChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8D-EH-qca"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sC0-ab-7mX">
-                                <rect key="frame" x="140" y="64" width="320" height="211"/>
+                                <rect key="frame" x="140" y="72" width="320" height="211"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="1w6-v4-NfI"/>
                                     <constraint firstAttribute="width" constant="290" id="3f3-FE-aTP"/>
@@ -133,28 +159,18 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90m-Y9-AYp" userLabel="G">
-                                <rect key="frame" x="275" y="468" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfW-1X-qWT" userLabel="E">
+                                <rect key="frame" x="270" y="405" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SGL-2G-6YR"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="fak-wt-2wD"/>
-                                    <constraint firstAttribute="height" constant="50" id="iZv-0f-mvt"/>
-                                    <constraint firstAttribute="width" constant="30" id="kIN-aR-nfJ"/>
-                                    <constraint firstAttribute="height" constant="30" id="siu-ru-XxY"/>
-                                    <constraint firstAttribute="width" constant="50" id="wuF-WW-eS8"/>
+                                    <constraint firstAttribute="width" constant="60" id="3Md-T7-eWD"/>
+                                    <constraint firstAttribute="height" constant="60" id="wVA-9f-Qct"/>
                                 </constraints>
-                                <state key="normal" image="G Button">
+                                <state key="normal" image="E Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="kIN-aR-nfJ"/>
-                                        <exclude reference="siu-ru-XxY"/>
-                                    </mask>
-                                </variation>
                                 <connections>
-                                    <action selector="gChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8D-EH-qca"/>
+                                    <action selector="eChord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cra-0K-SUg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -163,7 +179,6 @@
                             <constraint firstItem="YCp-ZX-sB1" firstAttribute="top" secondItem="gcE-LN-kBE" secondAttribute="bottom" constant="8" id="1cu-gS-kaT"/>
                             <constraint firstAttribute="centerX" secondItem="90m-Y9-AYp" secondAttribute="centerX" id="3n7-jJ-CPy"/>
                             <constraint firstItem="9CA-Oj-aRg" firstAttribute="leading" secondItem="YCp-ZX-sB1" secondAttribute="trailing" constant="34" id="3yN-QL-Xim"/>
-                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="51Z-bh-Zir"/>
                             <constraint firstAttribute="centerX" secondItem="sC0-ab-7mX" secondAttribute="centerX" id="7B5-yt-tLb"/>
                             <constraint firstAttribute="centerX" secondItem="90m-Y9-AYp" secondAttribute="centerX" id="7HJ-vb-IUI"/>
                             <constraint firstItem="9CA-Oj-aRg" firstAttribute="top" secondItem="YCp-ZX-sB1" secondAttribute="bottom" constant="8" id="AUQ-v9-kPd"/>
@@ -178,17 +193,17 @@
                             <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="ueg-Ip-Nej" secondAttribute="bottom" constant="8" id="Xgr-kb-RyR"/>
                             <constraint firstItem="So2-wH-Fqa" firstAttribute="top" secondItem="gcE-LN-kBE" secondAttribute="bottom" constant="31" id="Zeh-pi-BWe"/>
                             <constraint firstItem="YCp-ZX-sB1" firstAttribute="leading" secondItem="gcE-LN-kBE" secondAttribute="trailing" constant="34" id="dSv-Po-hZv"/>
+                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="io4-nH-gsk"/>
                             <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="nfW-1X-qWT" secondAttribute="bottom" constant="31" id="loX-Ih-yY7"/>
                             <constraint firstItem="nfW-1X-qWT" firstAttribute="top" secondItem="YCp-ZX-sB1" secondAttribute="bottom" constant="31" id="oAb-Q5-WCT"/>
                             <constraint firstItem="9CA-Oj-aRg" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="sjp-iK-fDd"/>
+                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="wI4-4v-JKH"/>
                             <constraint firstAttribute="centerX" secondItem="YCp-ZX-sB1" secondAttribute="centerX" id="wJd-WL-P7x"/>
                             <constraint firstItem="90m-Y9-AYp" firstAttribute="top" secondItem="sC0-ab-7mX" secondAttribute="bottom" constant="31" id="xlK-1w-mpa"/>
-                            <constraint firstItem="sC0-ab-7mX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="yYc-o6-rZW"/>
                             <constraint firstItem="ueg-Ip-Nej" firstAttribute="top" secondItem="9CA-Oj-aRg" secondAttribute="bottom" constant="31" id="zdf-n9-JRz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="yYc-o6-rZW"/>
                                 <exclude reference="Qbv-Te-PMG"/>
                                 <exclude reference="1cu-gS-kaT"/>
                                 <exclude reference="EPA-Ei-Svd"/>
@@ -230,6 +245,11 @@
     </scenes>
     <resources>
         <image name="A Button" width="115" height="115"/>
-        <image name="G Button" width="115" height="115"/>
+        <image name="B Button" width="115" height="115"/>
+        <image name="C Button" width="115" height="115"/>
+        <image name="D Button" width="115" height="115"/>
+        <image name="E Button" width="115" height="115"/>
+        <image name="F Button" width="115" height="115"/>
+        <image name="G Button-1" width="115" height="115"/>
     </resources>
 </document>

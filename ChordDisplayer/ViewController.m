@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.imageOne.image = [UIImage imageNamed:@"classic3"];
+    self.imageOne.image = [UIImage imageNamed:@"classic3-1"];
     self.title = @"EzChords";
 }
 - (IBAction)guitarButton:(id)sender
@@ -28,27 +28,33 @@
 - (IBAction)bChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"B Chord Tab"];
+    self.title = @"B";
 }
 
 - (IBAction)cChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"C Chord Tab"];
+    self.title = @"C";
 }
 - (IBAction)dChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"D Chord Tab"];
+    self.title = @"D";
 }
 - (IBAction)eChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"E Chord Tab"];
+    self.title = @"E";
 }
 - (IBAction)fChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"F Chord Tab"];
+    self.title = @"F";
 }
 - (IBAction)gChord:(id)sender
 {
     self.imageOne.image = [UIImage imageNamed:@"G Chord Tab"];
+    self.title = @"G";
 }
 
 
