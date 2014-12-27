@@ -217,6 +217,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="7Fe-Pt-TKY"/>
                     <connections>
+                        <outlet property="aButton" destination="gcE-LN-kBE" id="yb7-uz-WNo"/>
+                        <outlet property="bButton" destination="YCp-ZX-sB1" id="ldu-5U-rWl"/>
+                        <outlet property="cButton" destination="9CA-Oj-aRg" id="1cg-m0-0zN"/>
+                        <outlet property="dButton" destination="So2-wH-Fqa" id="qlW-FD-TNu"/>
+                        <outlet property="eButton" destination="nfW-1X-qWT" id="daH-K2-1EQ"/>
+                        <outlet property="fButton" destination="ueg-Ip-Nej" id="Q00-vO-SNy"/>
+                        <outlet property="gButton" destination="90m-Y9-AYp" id="oTe-tN-6Fa"/>
                         <outlet property="imageOne" destination="sC0-ab-7mX" id="usa-1Q-sfS"/>
                     </connections>
                 </viewController>
